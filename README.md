@@ -4,7 +4,7 @@
 
 This project is a backend system for a finance dashboard application. It provides APIs for managing financial records, user roles, and generating analytics data for dashboard visualization.
 
-The system is designed with a focus on clean architecture, role-based access control, and efficient data processing.
+The system is designed with a focus on clean architecture, role-based access control (RBAC), and efficient data processing.
 
 ---
 
@@ -115,8 +115,8 @@ Records can be filtered using query parameters:
 1. Clone the repository:
 
 ```
-git clone <your-repo-link>
-cd finance-backend
+git clone https://github.com/ashish-kumar17-abd/finance-dashboard-backend.git
+cd finance-dashboard-backend
 ```
 
 2. Create virtual environment:
@@ -148,10 +148,10 @@ python manage.py runserver
 
 ## 🧠 Design Decisions
 
-* Used Django REST Framework for rapid API development
-* Implemented custom permissions for RBAC
-* Separated apps for modular architecture (accounts, records, dashboard)
-* Optimized queries using aggregation functions
+* Used Django REST Framework for scalable API development
+* Implemented custom permissions for role-based access control (RBAC)
+* Organized project into modular apps (accounts, records, dashboard)
+* Optimized queries using aggregation functions for analytics
 
 ---
 
@@ -159,13 +159,13 @@ python manage.py runserver
 
 * Pagination
 * Advanced filtering
-* API documentation (Swagger)
+* API documentation (Swagger/OpenAPI)
 * Deployment (Render / AWS)
 
 ---
 
 ## 📌 Conclusion
 
-This project demonstrates backend design, API structuring, role-based access control, and data analytics implementation suitable for real-world applications.
+This project demonstrates backend design, API structuring, role-based access control, and analytics processing for a real-world finance dashboard system.
 
 ---
